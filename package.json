@@ -1,0 +1,16 @@
+{
+    "name": "myapp",
+    "version": "1.0.0",
+    "description": "Test Build Desktop App.",
+    "main": "main.js",
+    "scripts": {
+        "pack": "build --config --win nsis"
+    },
+    "author": "FDRON",
+    "license": "ISC",
+    "devDependencies": {
+        "electron": "^1.6.6",
+        "electron-builder": "^17.1.1",
+        "electron-builder-squirrel-windows": "^17.0.1"
+    }
+}

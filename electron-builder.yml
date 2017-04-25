@@ -1,0 +1,12 @@
+appId: "com.test.myapp"
+productName: "myapp"
+directories:
+  buildResources: "build"
+  output: "electron-build-app"
+nsis:
+  oneClick: false
+  perMachine: true
+  allowToChangeInstallationDirectory: true
+squirrelWindows:
+  iconUrl: "https://github.com/angular/angular-cli/blob/master/packages/@angular/cli/blueprints/ng/files/__path__/favicon.ico"
+  msi: true
